@@ -1,0 +1,38 @@
+# brew bundle
+
+update
+
+install wget
+install tig
+install openssh
+install git
+
+install ruby
+
+tap homebrew/dupes
+tap josegonzalez/php
+install php55 --without-apache
+install php55-intl
+install php55-mcrypt
+install php55-xdebug
+
+install nginx
+install mysql
+install sqlite
+install memcached
+
+tap phinze/homebrew-cask
+install brew-cask
+
+tap jimbojsb/launchrocket
+cask install launchrocket
+
+cask install virtualbox
+cask install vagrant
+cask install dropbox
+cask install skype
+cask install google-chrome
+cask install google-japanese-ime
+cask install appcleaner
+
+cleanup
