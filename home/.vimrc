@@ -23,8 +23,8 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+"set backupdir=~/.vim/backups
+"set directory=~/.vim/swaps
 if exists("&undodir")
     set undodir=~/.vim/undo
 endif
@@ -45,7 +45,7 @@ set cursorline
 set tabstop=2
 " Show “invisible” characters
 "set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set list
+"set list
 " Highlight searches
 set hlsearch
 " Ignore case of searches
