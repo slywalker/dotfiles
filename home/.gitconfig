@@ -15,6 +15,7 @@
 	interactive = auto
 	status = auto
 [merge]
+	log = true
 	tool = opendiff
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -23,6 +24,6 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [push]
-	default = simple
+	default = matching
 [commit]
 	cleanup = whitespace

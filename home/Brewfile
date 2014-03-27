@@ -1,6 +1,10 @@
-# brew bundle
+# command `brew bundle`
 
+# Make sure we’re using the latest Homebrew
 update
+
+# Upgrade any already-installed formulae
+upgrade
 
 install wget
 install tig
@@ -35,4 +39,5 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install appcleaner
 
+# Remove outdated versions from the cellar
 cleanup
