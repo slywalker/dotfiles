@@ -10,6 +10,7 @@ install wget
 install tig
 install openssh
 install git
+install tree
 
 install ruby
 
@@ -28,9 +29,8 @@ install memcached
 tap phinze/homebrew-cask
 install brew-cask
 
-tap jimbojsb/launchrocket
+# Install Applications
 cask install launchrocket
-
 cask install virtualbox
 cask install vagrant
 cask install dropbox
