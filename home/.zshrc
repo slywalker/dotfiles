@@ -7,17 +7,15 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="muse"
 
-# Example aliases
+# aliases
 alias zshconfig="subl -n ~/.zshrc"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
 alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 
-# Uncomment following line if you want red dots to be displayed while waiting for completion
+# red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(composer git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
 
 source $ZSH/oh-my-zsh.sh
@@ -30,4 +28,5 @@ export PATH=$(brew --prefix)/bin:$(brew --prefix)/opt/ruby/bin:$PATH
 # Autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
+# Lang
 export LANG=ja_JP.UTF-8
