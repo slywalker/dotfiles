@@ -10,6 +10,7 @@ ZSH_THEME="muse"
 # Example aliases
 alias zshconfig="subl -n ~/.zshrc"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
+alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
