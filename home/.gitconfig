@@ -1,13 +1,7 @@
-[user]
-	name = Yasuo Harada
-	email = slywalker.net@gmail.com
 [core]
 	excludesfile = ~/.gitignore
 	pager = less -r
 	editor = vim -c \"set fenc=utf-8\"
-[github]
-	user = slywalker
-	token = cdcb54831c5dcfb3e9199c5d292f07d9
 [color]
 	ui = auto
 	branch = auto
@@ -24,6 +18,8 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [push]
-	default = matching
+	default = simple
 [commit]
 	cleanup = whitespace
+[include]
+	path = .gitconfig.user
