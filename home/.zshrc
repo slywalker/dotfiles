@@ -23,7 +23,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 # HomeBrew
-export PATH=$(brew --prefix)/bin:$(brew --prefix)/opt/ruby/bin:$PATH
+export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
 
 # Autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
