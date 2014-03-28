@@ -39,12 +39,16 @@ tap phinze/homebrew-cask
 install phinze/cask/brew-cask
 
 # Install Applications
+cask install alfred
 cask install appcleaner
+cask install caffeine
+cask install dash
 cask install dropbox
 cask install google-chrome
 cask install google-japanese-ime
 cask install launchrocket
 cask install skype
+cask install totalterminal
 cask install vagrant
 cask install virtualbox
 
