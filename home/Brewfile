@@ -27,6 +27,7 @@ install josegonzalez/php/php55-xdebug
 install memcached
 install mysql
 install nginx
+install postgis
 install postgresql
 install sqlite
 
