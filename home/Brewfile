@@ -8,10 +8,11 @@ upgrade
 
 install autojump
 install git
-install homebrew/dupes/openssh
 install tig
 install tree
 install wget
+
+install homebrew/dupes/openssh
 
 install node
 install ruby
