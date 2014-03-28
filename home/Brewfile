@@ -17,7 +17,7 @@ install homebrew/dupes/openssh
 install node
 install ruby
 
-install josegonzalez/php/php55 --without-apache
+install josegonzalez/php/php55 --with-fpm --with-pgsql --without-apache
 install josegonzalez/php/php55-intl
 install josegonzalez/php/php55-mcrypt
 install josegonzalez/php/php55-memcache
