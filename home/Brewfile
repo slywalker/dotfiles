@@ -10,7 +10,6 @@ install wget
 install tig
 install git
 install tree
-install ossp-uuid
 install homebrew/dupes/openssh
 
 install ruby
