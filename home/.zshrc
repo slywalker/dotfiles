@@ -19,6 +19,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(composer git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zshenv
 
 # Customize to your needs...
 

@@ -13,6 +13,7 @@ install tree
 install homebrew/dupes/openssh
 
 install ruby
+install node
 
 install josegonzalez/php/php55 --without-apache
 install josegonzalez/php/php55-intl
