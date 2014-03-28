@@ -10,6 +10,7 @@ install wget
 install tig
 install git
 install tree
+install autojump
 install homebrew/dupes/openssh
 
 install ruby
@@ -24,6 +25,7 @@ install josegonzalez/php/php55-memcached
 
 install nginx
 install mysql
+install postgresql
 install sqlite
 install memcached
 

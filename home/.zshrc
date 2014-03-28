@@ -16,7 +16,7 @@ alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 COMPLETION_WAITING_DOTS="true"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(composer git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
+plugins=(autojump brew capistrano composer git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
@@ -25,9 +25,6 @@ source $HOME/.zshenv
 
 # HomeBrew
 export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
-
-# Autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 # Lang
 export LANG=ja_JP.UTF-8
