@@ -48,6 +48,7 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install launchrocket
 cask install skype
+cask install sourcetree
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
