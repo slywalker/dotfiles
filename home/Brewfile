@@ -8,18 +8,19 @@ upgrade
 
 install wget
 install tig
-install openssh
 install git
 install tree
+install ossp-uuid
+install homebrew/dupes/openssh
 
 install ruby
 
-tap homebrew/dupes
-tap josegonzalez/php
-install php55 --without-apache
-install php55-intl
-install php55-mcrypt
-install php55-xdebug
+install josegonzalez/php/php55 --without-apache
+install josegonzalez/php/php55-intl
+install josegonzalez/php/php55-mcrypt
+install josegonzalez/php/php55-xdebug
+install josegonzalez/php/php55-memcache
+install josegonzalez/php/php55-memcached
 
 install nginx
 install mysql
