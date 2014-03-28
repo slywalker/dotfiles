@@ -12,6 +12,11 @@ alias zshconfig="subl -n ~/.zshrc"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
 alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 
+alias bb="cd ~ && brew bundle"
+alias bs="brew search"
+alias bi="brew info"
+alias bo="brew options"
+
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
