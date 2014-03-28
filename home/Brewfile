@@ -6,41 +6,41 @@ update
 # Upgrade any already-installed formulae
 upgrade
 
-install wget
-install tig
-install git
-install tree
 install autojump
+install git
 install homebrew/dupes/openssh
+install tig
+install tree
+install wget
 
-install ruby
 install node
+install ruby
 
 install josegonzalez/php/php55 --without-apache
 install josegonzalez/php/php55-intl
 install josegonzalez/php/php55-mcrypt
-install josegonzalez/php/php55-xdebug
 install josegonzalez/php/php55-memcache
 install josegonzalez/php/php55-memcached
+install josegonzalez/php/php55-xdebug
 
-install nginx
+install memcached
 install mysql
+install nginx
 install postgresql
 install sqlite
-install memcached
 
 tap phinze/homebrew-cask
 install brew-cask
 
 # Install Applications
-cask install launchrocket
-cask install virtualbox
-cask install vagrant
+cask install appcleaner
 cask install dropbox
-cask install skype
 cask install google-chrome
 cask install google-japanese-ime
-cask install appcleaner
+cask install launchrocket
+cask install skype
+cask install vagrant
+cask install virtualbox
 
 # Remove outdated versions from the cellar
 cleanup
