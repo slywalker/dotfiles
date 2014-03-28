@@ -16,6 +16,8 @@ alias bb="cd ~ && brew bundle"
 alias bs="brew search"
 alias bi="brew info"
 alias bo="brew options"
+alias bup="brew update && brew upgrade"
+alias bc="brew cleanup"
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
