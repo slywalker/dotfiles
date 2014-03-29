@@ -45,7 +45,7 @@ precmd() {
         d=`expr $d - $COMMAND_TIME`
         if [ "$d" -ge "30" ] ; then
             COMMAND="$COMMAND "
-            which terminal-notifier > /dev/null 2>&1 && terminal-notifier -message "${${(s: :)COMMAND}[1]}" -m "$COMMAND";
+            which terminal-notifier > /dev/null 2>&1 && terminal-notifier -message "Finish! > ${${(s: :)COMMAND}[1]}" -m "$COMMAND";
         fi
     fi
     COMMAND="0"
