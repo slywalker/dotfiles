@@ -4,13 +4,14 @@
 update
 
 # Upgrade any already-installed formulae
-upgrade
+#upgrade
 
 install autojump
 install git
 install tig
 install tree
 install wget
+install terminal-notifier
 
 tap homebrew/dupes
 install homebrew/dupes/openssh

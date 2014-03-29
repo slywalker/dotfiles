@@ -35,3 +35,25 @@ export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby
 
 # Lang
 export LANG=ja_JP.UTF-8
+
+# Terminal Notifier
+local COMMAND=""
+local COMMAND_TIME=""
+precmd() {
+    if [ "$COMMAND_TIME" -ne "0" ] ; then
+        local d=`date +%s`
+        d=`expr $d - $COMMAND_TIME`
+        if [ "$d" -ge "30" ] ; then
+            COMMAND="$COMMAND "
+            which terminal-notifier > /dev/null 2>&1 && terminal-notifier -message "${${(s: :)COMMAND}[1]}" -m "$COMMAND";
+        fi
+    fi
+    COMMAND="0"
+    COMMAND_TIME="0"
+}
+preexec () {
+    COMMAND="${1}"
+    if [ "`perl -e 'print($ARGV[0]=~/ssh|^vi/)' $COMMAND`" -ne 1 ] ; then
+        COMMAND_TIME=`date +%s`
+    fi
+}
