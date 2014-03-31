@@ -33,6 +33,10 @@ source $HOME/.zshenv
 # HomeBrew
 export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
 
+if [ -d $HOME/.composer/vendor/bin ] ; then
+    export PATH=$PATH:$HOME/.composer/vendor/bin
+fi
+
 # Lang
 export LANG=ja_JP.UTF-8
 
