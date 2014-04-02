@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/slywalker/.gitignore
+	excludesfile = ~/.gitignore
 	pager = less -r
 	editor = vim -c \"set fenc=utf-8\"
 [color]
