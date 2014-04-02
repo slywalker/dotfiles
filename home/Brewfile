@@ -28,6 +28,8 @@ install josegonzalez/php/php55-mcrypt
 install josegonzalez/php/php55-memcache
 install josegonzalez/php/php55-memcached
 install josegonzalez/php/php55-xdebug
+unlink php55
+link php55
 install composer
 
 install memcached
