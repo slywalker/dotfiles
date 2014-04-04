@@ -32,6 +32,7 @@ unlink php55
 link php55
 install composer
 
+install beanstalkd
 install memcached
 install mysql
 install nginx
