@@ -43,6 +43,9 @@ install sqlite
 tap phinze/homebrew-cask
 install phinze/cask/brew-cask
 
+# Remove outdated versions from the cellar
+cleanup
+
 # Install Applications
 cask install alfred
 cask install appcleaner
@@ -58,8 +61,8 @@ cask install totalterminal
 cask install vagrant
 cask install virtualbox
 
+# Remove outdated versions from the cask
+cask cleanup
+
 # Alfred Setting
 cask alfred link
-
-# Remove outdated versions from the cellar
-cleanup
