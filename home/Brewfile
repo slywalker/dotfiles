@@ -4,24 +4,24 @@
 update
 
 # Upgrade any already-installed formulae
-#upgrade
+upgrade
+
+tap homebrew/binary
+tap homebrew/dupes
+tap homebrew/versions
 
 install autojump
 install git
+install plantuml
 install tig
 install tree
 install wget
 install terminal-notifier
 
-tap homebrew/dupes
 install homebrew/dupes/openssh
 
 install node
 install ruby
-
-tap homebrew/binary
-tap homebrew/dupes
-tap homebrew/versions
 
 tap josegonzalez/homebrew-php
 install php55 --with-fpm --with-pgsql --without-apache
