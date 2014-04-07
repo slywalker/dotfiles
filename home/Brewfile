@@ -19,15 +19,17 @@ install homebrew/dupes/openssh
 install node
 install ruby
 
+tap homebrew/binary
 tap homebrew/dupes
 tap homebrew/versions
+
 tap josegonzalez/homebrew-php
-install josegonzalez/php/php55 --with-fpm --with-pgsql --without-apache
-install josegonzalez/php/php55-intl
-install josegonzalez/php/php55-mcrypt
-install josegonzalez/php/php55-memcache
-install josegonzalez/php/php55-memcached
-install josegonzalez/php/php55-xdebug
+install php55 --with-fpm --with-pgsql --without-apache
+install php55-intl
+install php55-mcrypt
+install php55-memcache
+install php55-memcached
+install php55-xdebug
 unlink php55
 link php55
 install composer
