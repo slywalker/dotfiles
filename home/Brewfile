@@ -51,7 +51,10 @@ cleanup
 # Install Applications
 cask install alfred
 cask install appcleaner
+cask install bartender
 cask install caffeine
+cask install changes
+cask install codekit
 cask install dash
 cask install dropbox
 cask install google-chrome
