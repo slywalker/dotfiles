@@ -15,6 +15,8 @@ After, brew installed [Homebrew — The missing package manager for OS X](http:/
 $ brew bundle
 $ gem install bundler
 $ bundle install
+$ composer global install
+$ pear-install
 ```
 
 # User dotfiles
