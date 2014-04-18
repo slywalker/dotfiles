@@ -1,15 +1,9 @@
 [core]
 	excludesfile = ~/.gitignore
-	pager = less -r
-	editor = vim -c \"set fenc=utf-8\"
+	autocrlf = input
 [color]
-	ui = auto
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+	ui = true
 [merge]
-	log = true
 	tool = opendiff
 [push]
 	default = simple
@@ -17,3 +11,5 @@
 	cleanup = whitespace
 [include]
 	path = ~/.gitconfig.user
+[help]
+	autocorrect = true
