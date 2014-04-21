@@ -23,6 +23,14 @@ install homebrew/dupes/openssh
 install node
 install ruby
 
+install beanstalkd
+install memcached
+install mysql
+install nginx
+install postgis
+install postgresql
+install sqlite
+
 tap josegonzalez/homebrew-php
 install php55 --with-fpm --with-pgsql --without-apache
 install php55-intl
@@ -33,14 +41,6 @@ install php55-xdebug
 unlink php55
 link php55
 install composer
-
-install beanstalkd
-install memcached
-install mysql
-install nginx
-install postgis
-install postgresql
-install sqlite
 
 tap phinze/homebrew-cask
 install phinze/cask/brew-cask
