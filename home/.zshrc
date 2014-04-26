@@ -23,13 +23,13 @@ pear-install() {
     pear install PHP_CodeSniffer
     pear channel-discover pear.cakephp.org
     pear install cakephp/CakePHP_CodeSniffer
-    brew unlink php55
-    brew link php55
+    brew unlink php55 && brew link --overwrite php55
 }
 pear-update() {
     pear update-channels
     pear upgrade-all
     pear clear-cache
+    brew unlink php55 && brew link --overwrite php55
 }
 gem-update() {
     gem update

@@ -39,7 +39,7 @@ install php55-memcache
 install php55-memcached
 install php55-xdebug
 unlink php55
-link php55
+link --overwrite php55
 install composer
 
 tap phinze/homebrew-cask
