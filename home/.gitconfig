@@ -1,6 +1,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
+	precomposeunicode = true
 [color]
 	ui = true
 [merge]
