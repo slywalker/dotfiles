@@ -26,6 +26,21 @@ pear-install() {
     brew unlink php55
     brew link php55
 }
+pear-update() {
+    pear update-channels
+    pear upgrade-all
+    pear clear-cache
+}
+gem-update() {
+    gem update
+    gem pristine --all --only-executables
+    gem clean
+}
+npm-update() {
+    npm update -gf
+    brew unlink node && brew link --overwrite node
+    npm -g cache clean
+}
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
