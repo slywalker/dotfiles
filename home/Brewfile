@@ -65,6 +65,7 @@ cask install sourcetree
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
+cask install xtrafinder
 
 # Remove outdated versions from the cask
 cask cleanup
