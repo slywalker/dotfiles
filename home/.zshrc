@@ -41,7 +41,7 @@ npm-update() {
     brew unlink node && brew link --overwrite node
     npm -g cache clean
 }
-alias all-update="cd ~ && brew bundle && pear-update && npm-update"
+alias all-update="cd ~ && brew bundle && pear-update && gem-update && npm-update"
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
