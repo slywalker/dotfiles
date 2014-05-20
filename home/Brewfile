@@ -66,6 +66,7 @@ cask install skype
 cask install sourcetree
 cask install totalterminal
 cask install vagrant
+cask install vagrant-manager
 cask install virtualbox
 cask install xtrafinder
 
