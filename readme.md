@@ -1,6 +1,12 @@
 # Usage
 
-First, install homesick
+Install OhMyZsh
+
+```
+$ curl -L http://install.ohmyz.sh | sh
+```
+
+Install homesick
 
 ```
 $ gem install homesick
@@ -9,7 +15,13 @@ $ homesick clone git@github.com:slywalker/dotfiles.git
 $ homesick symlink dotfiles
 ```
 
-After, brew installed [Homebrew — The missing package manager for OS X](http://brew.sh/)
+Install brew [Homebrew — The missing package manager for OS X](http://brew.sh/)
+
+```
+$ xcode-select --install
+$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+$ brew doctor
+```
 
 ```
 $ brew bundle
@@ -22,6 +34,6 @@ $ pear-install
 # User dotfiles
 
 ```
-.zshenv
-.gitconfig.user
+$ touch ~/.zshenv
+$ touch ~/.gitconfig.user
 ```
