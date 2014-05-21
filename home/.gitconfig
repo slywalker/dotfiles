@@ -13,4 +13,4 @@
 [include]
 	path = ~/.gitconfig.user
 [help]
-	autocorrect = true
+	autocorrect = 1
