@@ -23,6 +23,7 @@ install homebrew/dupes/openssh
 
 install node
 install ruby
+install scala
 
 install beanstalkd
 install memcached
