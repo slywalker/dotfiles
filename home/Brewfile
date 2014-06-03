@@ -65,6 +65,7 @@ cask install iterm2
 cask install launchrocket
 cask install skype
 cask install sourcetree
+cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
 cask install vagrant-manager
