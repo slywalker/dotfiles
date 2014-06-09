@@ -23,6 +23,7 @@ install homebrew/dupes/openssh
 
 install node
 install ruby
+link --overwrite ruby
 install scala
 
 install beanstalkd
