@@ -52,25 +52,25 @@ install phinze/cask/brew-cask
 cleanup
 
 # Install Applications
-cask install alfred
-cask install appcleaner
-cask install bartender
-cask install caffeine
-cask install codekit
-cask install dash
-cask install dropbox
-cask install google-chrome
-cask install google-japanese-ime
-cask install iterm2
-cask install launchrocket
-cask install skype
-cask install sourcetree
-cask install the-unarchiver
-cask install totalterminal
-cask install vagrant
-cask install vagrant-manager
-cask install virtualbox
-cask install xtrafinder
+cask install alfred || true
+cask install appcleaner || true
+cask install bartender || true
+cask install caffeine || true
+cask install codekit || true
+cask install dash || true
+cask install dropbox || true
+cask install google-chrome || true
+cask install google-japanese-ime || true
+cask install iterm2 || true
+cask install launchrocket || true
+cask install skype || true
+cask install sourcetree || true
+cask install the-unarchiver || true
+cask install totalterminal || true
+cask install vagrant || true
+cask install vagrant-manager || true
+cask install virtualbox || true
+cask install xtrafinder || true
 
 # Remove outdated versions from the cask
 cask cleanup
