@@ -22,10 +22,18 @@ install terminal-notifier
 install homebrew/dupes/openssh
 
 install node
+install scala
+
 install ruby
 unlink ruby
 link --overwrite ruby
-install scala
+install brew-gem
+gem bundler
+link --overwrite bundler
+gem compass
+link --overwrite compass
+gem homesick
+link --overwrite homesick
 
 install beanstalkd
 install memcached
