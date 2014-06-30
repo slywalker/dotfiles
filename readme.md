@@ -25,8 +25,6 @@ $ brew doctor
 
 ```
 $ brew bundle
-$ gem install bundler
-$ bundle install
 $ composer global install
 $ pear-install
 ```
