@@ -12,7 +12,7 @@ alias zshconfig="subl -n ~/.zshrc"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
 alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 
-alias bb="cd ~ && brew bundle"
+alias bb="~/.homesick/repos/dotfiles/home/brew-bundle.sh"
 alias bs="brew search"
 alias bi="brew info"
 alias bo="brew options"
@@ -41,7 +41,7 @@ npm-update() {
     brew unlink node && brew link --overwrite node
     npm -g cache clean
 }
-alias all-update="cd ~ && brew bundle && pear-update && gem-update && npm-update"
+alias all-update="bb && pear-update && gem-update && npm-update"
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
