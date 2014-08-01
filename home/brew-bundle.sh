@@ -55,13 +55,13 @@ brew link --overwrite php55
 brew install box
 brew install composer
 
-brew tap phinze/homebrew-cask
-brew install phinze/cask/brew-cask
+brew install caskroom/cask/brew-cask
 
 # Remove outdated versions from the cellar
 brew cleanup
 
 # Install Applications
+brew upgrade brew-cask
 brew cask install alfred || true
 brew cask install appcleaner || true
 brew cask install bartender || true
