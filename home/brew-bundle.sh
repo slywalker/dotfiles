@@ -25,15 +25,11 @@ brew install node
 brew install scala
 
 brew install ruby
-brew unlink ruby
-brew link --overwrite ruby
+brew unlink ruby && brew link ruby
 brew install brew-gem
-brew gem bundler
-brew link --overwrite bundler
-brew gem compass
-brew link --overwrite compass
-brew gem homesick
-brew link --overwrite homesick
+brew gem bundler && brew unlink bundler && brew link --overwrite bundler
+brew gem compass && brew unlink compass && brew link --overwrite compass
+brew gem homesick && brew unlink homesick && brew link --overwrite homesick
 
 brew install beanstalkd
 brew install memcached
@@ -50,8 +46,7 @@ brew install php55-mcrypt
 brew install php55-memcache
 brew install php55-memcached
 brew install php55-xdebug
-brew unlink php55
-brew link --overwrite php55
+brew unlink php55 && brew link php55
 brew install box
 brew install composer
 
