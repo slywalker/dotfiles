@@ -41,7 +41,6 @@ brew install sqlite
 
 brew tap homebrew/php
 brew install php55 --with-fpm --with-pgsql --without-apache
-brew install php55-intl
 brew install php55-mcrypt
 brew install php55-memcache
 brew install php55-memcached
