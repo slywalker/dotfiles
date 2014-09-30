@@ -10,14 +10,15 @@ brew tap homebrew/binary
 brew tap homebrew/dupes
 brew tap homebrew/versions
 
-brew install siege
 brew install autojump
 brew install git
+brew install nkf
 brew install plantuml
+brew install siege
+brew install terminal-notifier
 brew install tig
 brew install tree
 brew install wget
-brew install terminal-notifier
 
 brew install homebrew/dupes/openssh
 
