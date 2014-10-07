@@ -12,6 +12,7 @@ brew tap homebrew/versions
 
 brew install autojump
 brew install git
+brew install jq
 brew install nkf
 brew install plantuml
 brew install siege
