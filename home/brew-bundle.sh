@@ -69,6 +69,7 @@ brew cask install google-chrome || true
 brew cask install google-japanese-ime || true
 brew cask install iterm2 || true
 brew cask install launchrocket || true
+brew cask install qlmarkdown || true
 brew cask install skype || true
 brew cask install sourcetree || true
 brew cask install the-unarchiver || true
