@@ -24,7 +24,6 @@ $ brew doctor
 ```
 
 ```
-$ bb
 $ composer global install
 $ pear-install
 ```
