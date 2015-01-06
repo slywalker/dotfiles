@@ -12,7 +12,6 @@ alias zshconfig="subl -n ~/.zshrc"
 alias ohmyzsh="subl -n ~/.oh-my-zsh"
 alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 
-alias bb="~/.homesick/repos/dotfiles/home/brew-bundle.sh"
 alias bs="brew search"
 alias bi="brew info"
 alias bo="brew options"
@@ -23,13 +22,13 @@ pear-install() {
     pear install PHP_CodeSniffer
     pear channel-discover pear.cakephp.org
     pear install cakephp/CakePHP_CodeSniffer
-    brew unlink php55 && brew link --overwrite php55
+    brew unlink php56 && brew link --overwrite php56
 }
 pear-update() {
     pear update-channels
     pear upgrade-all
     pear clear-cache
-    brew unlink php55 && brew link --overwrite php55
+    brew unlink php56 && brew link --overwrite php56
 }
 gem-update() {
     gem update
@@ -41,7 +40,6 @@ npm-update() {
     brew unlink node && brew link --overwrite node
     npm -g cache clean
 }
-alias all-update="bb && pear-update && gem-update && npm-update"
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
