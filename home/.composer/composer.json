@@ -1,6 +1,7 @@
 {
     "require": {
         "psy/psysh": "*",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "cakephp/cakephp-codesniffer": "*"
     }
 }

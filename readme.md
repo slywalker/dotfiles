@@ -25,6 +25,7 @@ $ brew doctor
 
 ```
 $ composer global install
+$ phpcs --config-set installed_paths ~/.composer/vendor/cakephp/cakephp-codesniffer
 ```
 
 # User dotfiles
