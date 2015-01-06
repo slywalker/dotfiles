@@ -17,19 +17,6 @@ alias bi="brew info"
 alias bo="brew options"
 alias bup="brew update && brew upgrade"
 alias bc="brew cleanup"
-pear-install() {
-    pear config-set auto_discover 1
-    pear install PHP_CodeSniffer
-    pear channel-discover pear.cakephp.org
-    pear install cakephp/CakePHP_CodeSniffer
-    brew unlink php56 && brew link --overwrite php56
-}
-pear-update() {
-    pear update-channels
-    pear upgrade-all
-    pear clear-cache
-    brew unlink php56 && brew link --overwrite php56
-}
 gem-update() {
     gem update
     gem pristine --all --only-executables

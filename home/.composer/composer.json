@@ -1,5 +1,6 @@
 {
     "require": {
-        "psy/psysh": "*"
+        "psy/psysh": "*",
+        "squizlabs/php_codesniffer": "*"
     }
 }
