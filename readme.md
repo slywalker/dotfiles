@@ -25,7 +25,6 @@ $ brew doctor
 
 ```
 $ composer global install
-$ pear-install
 ```
 
 # User dotfiles
