@@ -44,10 +44,6 @@ export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby
 
 [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
 
-if [ -d $HOME/.composer/vendor/bin ] ; then
-    export PATH=$PATH:$HOME/.composer/vendor/bin
-fi
-
 # Lang
 export LANG=ja_JP.UTF-8
 

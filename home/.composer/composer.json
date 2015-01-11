@@ -3,5 +3,10 @@
         "psy/psysh": "*",
         "squizlabs/php_codesniffer": "*",
         "cakephp/cakephp-codesniffer": "*"
+    },
+    "scripts": {
+        "post-install": [
+            "ln -s ~/.composer/vendor/bin/* /usr/local/bin/"
+        ]
     }
 }
