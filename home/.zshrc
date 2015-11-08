@@ -24,7 +24,8 @@ source $HOME/.zshenv
 # Customize to your needs...
 
 # HomeBrew
-export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
+path=(~/bin(N-/) /usr/local/bin(N-/) /usr/local/sbin(N-/) /usr/local/bin/opt/ruby/bin(N-/) ${path})
+#export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
 
 [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
 
