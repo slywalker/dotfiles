@@ -2,7 +2,7 @@
     "require": {
         "psy/psysh": "*",
         "squizlabs/php_codesniffer": "*",
-        "cakephp/cakephp-codesniffer": "*"
+        "cakephp/cakephp-codesniffer": "^2.0"
     },
     "scripts": {
         "post-install": [
