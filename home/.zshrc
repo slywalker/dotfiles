@@ -16,7 +16,7 @@ alias dotfiles="cd ~/.homesick/repos/dotfiles && subl -n ."
 COMPLETION_WAITING_DOTS="true"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(autojump brew cakephp3 capistrano composer git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
+plugins=(autojump brew cakephp3 capistrano composer docker docker-compose git git-extras git-flow git-remote-branch github osx sublime terminalapp vagrant)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
@@ -28,7 +28,7 @@ path=(~/bin(N-/) /usr/local/bin(N-/) /usr/local/sbin(N-/) /usr/local/bin/opt/rub
 #export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$(brew --prefix)/opt/ruby/bin:$PATH
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 
-[[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 # Lang
 export LANG=ja_JP.UTF-8
